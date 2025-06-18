@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>contact|ZeroPlus CafePage</title>
+    
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="js_body">
+    <header class="l_header">
+      <!-- ヘッダーロゴ -->
+      <div class = "l_header-logo">
+        <a href="index.html" class="l_header-logo_link">
+          <img src="img\コーヒーショップ.png" alt="ロゴ" class = "logo-mark">
+          <img src="img\喫茶あこがれ.png" alt="ロゴ" class = "logo-title">
+        </a>
+      </div>
+    
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="l_header-nav">
+    
+        <!-- ハンバーガーアイコン -->
+        <div class="m_hamburger">
+          <span class="m-hamburger-bar"></span>
+        </div>
+    
+        <!-- オーバーレイ -->
+        <div class="hamburger-overlay"></div>
+        <!-- メニュー -->
+        <nav class="l_header-nav_content">
+          <ul class="l_header-nav_list">
+            <li class="l_header-nav_item">
+              <a href="index.html" class="l_header-nav_link">TOP</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="menu.html" class="l_header-nav_link">MENU</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#access" class="l_header-nav_link">ACCESS</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="contactform.php" class="l_header-nav_link">CONTACT</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="notFound.html" class="l_header-nav_link">
+                <img src="img/Instagram.png" alt="Instagram">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CONTACT -->
+    <h1 class="page_name">
+      CONTACT
+    </h1>
+
+    <!-- お問い合わせ送信完了 -->
+    <h2 class="page_sub-name">お問い合わせ送信完了</h2>
+    <div class="contact-form">
+      <div class="check-message">
+        この度は、お問い合わせありがとうございました。<br>
+        入力いただいた内容の送信が完了しました。<br>
+        入力内容の確認メールを、入力いただいたメールアドレス宛にお送りいたしました。<br>
+        なお、３日以内（送信日含む）に改めてご連絡させていただきます。<br>
+        よろしくお願いいたします。
+      </div>
+
+      <a href="index.html" class="return-button">TOPへ戻る</a>
+    </div>
+
+    <span class="end-bar"></span>
+
+    <footer class="l_footer">
+      <p> copyright &copy; 2025. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>

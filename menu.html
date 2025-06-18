@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>contact|ZeroPlus CafePage</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="js_body">
+    <header class="l_header">
+      <!-- ヘッダーロゴ -->
+      <div class="l_header-logo">
+        <a href="index.html" class="l_header-logo_link">
+          <img src="img\コーヒーショップ.png" alt="ロゴ" class="logo-mark" />
+          <img src="img\喫茶あこがれ.png" alt="ロゴ" class="logo-title" />
+        </a>
+      </div>
+
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="l_header-nav">
+        <!-- ハンバーガーアイコン -->
+        <div class="m_hamburger">
+          <span class="m-hamburger-bar"></span>
+        </div>
+
+        <!-- オーバーレイ -->
+        <div class="hamburger-overlay"></div>
+        <!-- メニュー -->
+        <nav class="l_header-nav_content">
+          <ul class="l_header-nav_list">
+            <li class="l_header-nav_item">
+              <a href="index.html" class="l_header-nav_link">TOP</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="menu.html" class="l_header-nav_link">MENU</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#access" class="l_header-nav_link">ACCESS</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="contact.html" class="l_header-nav_link">CONTACT</a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="notFound.html" class="l_header-nav_link">
+                <img src="img/Instagram.png" alt="Instagram" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="m_kv">
+      <div class="m_kv_contents l_container-lg">
+        <h1 class="m_kv_title">MENU</h1>
+      </div>
+    </div>
+
+    <main class="about_main l_page-main">
+      <section class="about_greeting" id="drink">
+        <div class="l_container">
+          <h2 class="m_page-section">Drink</h2>
+          <div class="item">
+            <div class="text-box">
+              <h3 class="text-box_name">あこがれのブレンドコーヒー</h3>
+              <p class="text-box_price">¥500</p>
+              <p class="text-box_text">
+                母がおいしそうに飲むコーヒーを<br>
+                一緒に飲めるようになって嬉しかったです。
+              </p>
+            </div>
+            <div class="img-wrapper">
+              <img src="img/カフェオレ.png" alt="ブレンドコーヒー" class="coffee-image" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="text-box">
+              <h3 class="text-box_name">ブレンドティー</h3>
+              <p class="text-box_price">¥550</p>
+              <p class="text-box_text">
+                ダージリン、セイロン、アッサムの<br>
+                オリジナルブレンドです。
+              </p>
+            </div>
+            <div class="img-wrapper">
+              <img src="img\MENU_ブレンドティー.png" alt="ブレンドティー" class="tea-image" />
+            </div>
+          </div>
+          <div class="menu_contents">
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/MENU_ミカンジュース.png" alt="ミカンジュース" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">みかんジュース</p>
+              <p class="menu_item_price">¥770</p>
+              <p class="menu_item_text">
+                果汁100％のフレッシュジュースです。<br>
+                濃厚な甘さをお楽しみください。
+              </p>
+            </div>
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/MENU_濃いミルクココア.png" alt="濃いミルクココア" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">濃いめのミルクココア</p>
+              <p class="menu_item_price">¥660</p>
+              <p class="menu_item_text">
+                濃いめのココアの包容力に魅せられました。<br>
+                リラックスしましょう。
+              </p>
+            </div>
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/クラフトコーラ.png" alt="クラフトコーラ" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">クラフトコーラ</p>
+              <p class="menu_item_price">¥770</p>
+              <p class="menu_item_text">
+                10種類のスパイスと厳選した柑橘を<br>
+                使用した自家製コーラです。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about_greeting" id="dessert">
+        <div class="l_container">
+          <h2 class="m_page-section">Dessert</h2>
+          <div class="item">
+            <div class="text-box">
+              <h3 class="text-box_name">あこがれのチーズケーキ</h3>
+              <p class="text-box_price">¥660</p>
+              <p class="text-box_text">
+                母の作ってくれるチーズケーキが<br>
+                何よりのご褒美でした。
+              </p>
+            </div>
+            <div class="img-wrapper">
+              <img src="img/チーズケーキ.png" alt="チーズケーキ" class="cake-image"/>
+            </div>
+          </div>
+          <div class="menu_contents">
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/昔懐かしプリン.png" alt="昔懐かしプリン" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">昔懐かしプリン</p>
+              <p class="menu_item_price">¥660</p>
+              <p class="menu_item_text">
+                少しかためのプリンです。<br>
+                奥深い卵の味わいをお楽しみください。
+              </p>
+            </div>
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/季節のタルト.png" alt="季節のタルト" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">季節のタルト</p>
+              <p class="menu_item_price">¥770</p>
+              <p class="menu_item_text">
+                旬のフルーツがたくさん。<br>
+                ささやかな贅沢です。
+              </p>
+            </div>
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/ショコラパフェ.png" alt="ショコラパフェ" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">ショコラパフェ</p>
+              <p class="menu_item_price">¥1,320</p>
+              <p class="menu_item_text">
+                しっとりショコラが主役のパフェ。<br>
+                おとなしいパフェです。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about_greeting" id="food">
+        <div class="l_container">
+          <h2 class="m_page-section">Food</h2>
+          <div class="item">
+            <div class="text-box">
+              <h3 class="text-box_name">あこがれのカレー</h3>
+              <p class="text-box_price">¥1,100</p>
+              <p class="text-box_text">
+                母と一緒に作った思い出とともに。<br>
+                このカレーは私の万能薬です。
+              </p>
+            </div>
+            <div class="img-wrapper">
+              <img src="img/あこがれのカレー.png" alt="あこがれのカレー" class="curry-image" />
+            </div>
+          </div>
+          <div class="menu_contents">
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/クラシックパンケーキ.png" alt="クラシックパンケーキ" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">クラシックパンケーキ</p>
+              <p class="menu_item_price">¥1,100</p>
+              <p class="menu_item_text">
+                クラシックスタイルのパンケーキです。<br>
+                しっとりバターと特製シロップ で。
+              </p>
+            </div>
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/ピクニックサンドイッチ.png" alt="ピクニックサンドイッチ" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">ピクニックサンドイッチ</p>
+              <p class="menu_item_price">¥880</p>
+              <p class="menu_item_text">
+                ピクニックで食べるサンドイッチの<br>
+                おいしさに驚かされます。
+              </p>
+            </div>
+            <div class="menu_item">
+              <div class="menu_item_img-wrapper">
+                <img src="img/シュガートースト.png" alt="シュガートースト" width="290" height="235" class="menu_item_icon" />
+              </div>
+              <p class="menu_item_name">シュガートースト</p>
+              <p class="menu_item_price">¥660</p>
+              <p class="menu_item_text">
+                しっかり甘いです。<br>
+                砂糖の食感をお楽しみください。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about_greeting">
+        <div class="l_container">
+          <h2 class="m_page-section">Lunch Set</h2>
+          <div class="item">
+            <div class="text-box">
+              <h3 class="text-box_name">あこがれセットA</h3>
+              <p class="text-box_price .set_item">¥1,650</p>
+              <p class="text-box_text">
+                ・煮込みハンバーグ<br>
+                ・本日のスープ<br>
+                ・ミニサラダ<br>
+                ・選べる小鉢　2点<br>
+                ・パン or ライス
+              </p>
+            </div>
+            <div class="img-wrapper">
+              <img src="img/あこがれセットA.png" alt="あこがれセットA" class="coffee-image" />
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="text-box">
+              <h3 class="text-box_name">あこがれセットB</h3>
+              <p class="text-box_price .set_item">¥1,430</p>
+              <p class="text-box_text">
+                ・バケットサンドイッチ<br>
+                ・本日のスープ<br>
+                ・ミニサラダ<br>
+                ・選べる小鉢　2点
+              </p>
+            </div>
+            <div class="img-wrapper">
+              <img src="img/あこがれセットB.png" alt="あこがれセットB" class="tea-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="l_footer">
+      <p>copyright &copy; 2025. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
